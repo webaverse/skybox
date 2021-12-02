@@ -2,8 +2,8 @@ import * as THREE from 'three';
 // import {BufferGeometryUtils} from 'BufferGeometryUtils';
 // import {scene, renderer, camera, runtime, world, physics, ui, rig, app, appManager} from 'app';
 import {Sky} from './Sky.js';
-import metaversefile from 'metaversefile';
-const {useApp, useFrame, useLocalPlayer} = metaversefile;
+import totum from 'totum';
+const {useApp, useFrame, useLocalPlayer} = totum;
 
 /* const localVector = new THREE.Vector3();
 const localVector2 = new THREE.Vector3();
